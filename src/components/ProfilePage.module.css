@@ -1,0 +1,260 @@
+/* Contenedor principal del perfil */
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 17px;
+    /* border: 2px solid red; */
+  }
+  
+  /* Imagen de banner */
+  .profileBanner {
+    margin-top: -67px;
+    width: 100%;
+    max-width: 1500px;
+    /* margin-bottom: 10px; */
+  }
+  
+  .bannerImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Sección principal del perfil */
+  .profileMain {
+    margin-top: -110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Información del usuario */
+  .profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #00bfff;
+  }
+  
+  h2 {
+    margin: 10px 0 5px;
+  }
+  
+  p {
+    color: gray;
+  }
+  
+  /* Sección de biografía */
+  .profileBio {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Estadísticas del usuario */
+  .profileStats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .profileStats div {
+    text-align: center;
+  }
+  
+  .profileStats h3 {
+    margin: 0;
+  }
+  
+  .profileStats p {
+    color: gray;
+  }
+  
+  /* Botones de acción */
+  .profileActions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .btn {
+    background-color: #00bfff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+  }
+  
+  .btn:hover {
+    background-color:#0c9fcf;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .profileMain {
+      margin-top: 1px;
+      max-width: 100%;
+      padding: 10px;
+            /* border: 2px solid red; */
+    }
+      /* Imagen de banner */
+  .profileBanner {
+    /* margin-top: -67px; */
+    width: 100%;
+    max-width: 1500px;
+    max-height: 300px;
+    /* margin-bottom: 10px; */
+    height: 120px;
+    /* border: 2px solid red; */
+  }
+  .bannerImage {
+    width: 100%;
+    height: 120px;
+    border-radius: 8px;
+  }
+  
+  
+    .avatar {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .profileStats {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .btn {
+      background-color: #00bfff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 48%;
+    }
+  }
+
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    .profileMain {
+      margin-top: 9px;
+      /* border: 2px solid red; */
+      max-width: 90%;
+      padding: 15px;
+    }
+  
+    .avatar {
+      width: 120px;
+      height: 120px;
+    }
+   .profileBanner {
+    margin-top: -65px;
+    width: 100%;
+    max-width: 1500px;
+    max-height: 300px;
+    /* margin-bottom: 10px; */
+    height: 120px;
+    /* border: 2px solid red; */
+  }
+  .bannerImage {
+    width: 100%;
+    height: 120px;
+
+  }
+  
+    .profileStats {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .btn {
+      width: 48%;
+    }
+  }
+  
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .profileMain {
+      margin-top: -89px;
+      max-width: 80%;
+      padding: 20px;
+    }
+  
+      .profileBanner {
+    margin-top: -65px;
+    width: 100%;
+    max-width: 1500px;
+    max-height: 300px;
+    /* margin-bottom: 10px; */
+    height: 200px;
+    /* border: 2px solid red; */
+  }
+  .bannerImage {
+    width: 100%;
+    height: 200px;
+
+  }
+    .avatar {
+      width: 130px;
+      height: 130px;
+    }
+  
+    .profileStats {
+      justify-content: space-around;
+    }
+  
+    .btn {
+      width: 48%;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .profileMain {
+      /* margin-top: -80px; */
+      max-width: 600px;
+    }
+
+    .profileBanner {
+      margin-top: -67px;
+      width: 100%;
+      max-width: 100%;
+      /* margin-bottom: 10px; */
+    }
+    
+    .bannerImage {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    
+    
+  
+    .avatar {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .profileStats {
+      justify-content: space-around;
+    }
+  
+    .btn {
+      width: 48%;
+    }
+  }

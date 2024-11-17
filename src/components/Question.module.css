@@ -1,0 +1,51 @@
+/* Question.module.css */
+
+.container {
+    margin: 1.5rem 0;
+  }
+  
+  .question {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .options {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .optionButton {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 50px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: rgb(0, 0, 0);
+
+  }
+  
+  .optionButton:hover {
+    background-color: #d4d4d4;
+  }
+  
+  .correct {
+    background-color: #28a745; /* Color verde para correcto */
+    color: white;
+    border: 1px solid #28a745;
+  }
+  
+  .incorrect {
+    background-color: #dc3545; /* Color rojo para incorrecto */
+    color: white;
+    border: 1px solid #dc3545;
+  }
+  
+  .disabled {
+    pointer-events: none;
+    opacity: 0.5; /* Reduce la opacidad al deshabilitar */
+  }
+  
